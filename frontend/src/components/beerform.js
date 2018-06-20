@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './beerform.css';
 
 class BeerForm extends Component {
   state = {
@@ -22,7 +23,8 @@ class BeerForm extends Component {
 
   render() {
     return(
-      <form onSubmit={this.handleSubmit} >
+      <form className="beer-form" onSubmit={this.handleSubmit} >
+        <h3>Add a Beer</h3>
         <p>
         <label htmlFor="beer-name"> Name: </label>
         <input type="text" id="beer-name" value={ this.state.name } onChange={ e => this.setState({ name: e.target.value }) }/>
