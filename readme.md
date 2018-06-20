@@ -20,10 +20,11 @@
     - Create a delete button to delete beers
     - Create a form to add beers
 
-There were multiple ways of doing this:
-    - [Ruegen's way](https://github.com/Ruegen/beer-web)
-    - My code in this repo
-    - Mark did it differntly too, but it is not on github yet.
+## Solutions - There were multiple ways of doing this:
+- [Ruegen's way](https://github.com/Ruegen/beer-web)
+- My code in this repo
+- Eryk's repo ( He's got edit working too )
+- Mark did it differntly too, but it is not on github yet.
 
 ## Some tidbits of learning 
 - In a react app, fetch data with componentdidmount - https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
