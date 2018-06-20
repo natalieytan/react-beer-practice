@@ -1,0 +1,32 @@
+.beer img {
+    height: 200px;
+}
+
+.beer {
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #111;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 10px 10px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.beer:hover {
+    background: #DDD;
+}
+
+.beer-delete {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background: firebrick;
+    border: 1px solid crimson;
+}
+
+.beer-delete:hover {
+    cursor: pointer;
+}
